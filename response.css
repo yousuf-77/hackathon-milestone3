@@ -1,0 +1,158 @@
+@media (max-width:1111px) {
+  h1{
+    font-size: 3rem;
+  }
+  h2 , h3{
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    margin-top: 1.7rem;
+  }
+  label{
+    font-size: 1.7rem;
+  }
+  input {
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+#user-image{
+  font-size: 1.3rem;
+}
+textarea{
+  font-size: 1.4rem;
+}
+fieldset{
+  padding: 1rem 1.8rem;
+}
+}
+@media (max-width:952px) {
+  .form-container{
+    width: 60vw;}
+  h1{
+    font-size: 2.9rem;
+  }
+  h2,h3{
+    font-size: 2.2rem;
+    margin-bottom: 0.9rem;
+    margin-top: 1.6rem;
+  }
+  label{
+    font-size: 1.6rem;
+  }
+  input {
+    font-size: 1.5rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.9rem;
+}
+#user-image{
+  font-size: 1.2rem;
+}
+textarea{
+  font-size: 1.3rem;
+}
+fieldset{
+  padding: 0.9rem 1.7rem;
+}
+}
+@media (max-width:710px) {
+  h1{
+    font-size: 2.7rem;
+  }
+  h2,h3{
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+    margin-top: 1.4rem;
+  }
+  label{
+    font-size: 1.4rem;
+  }
+  input {
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+#user-image{
+  font-size: 1rem;
+}
+textarea{
+  font-size: 1.1rem;
+}
+fieldset{
+  padding: 0.7rem 1.5rem;
+}
+}
+@media (max-width:650px) {
+  .form-container{
+    width: 65vw;}
+}
+@media (max-width:610px) {
+  .form-container{
+    width: 65vw;}
+  h1{
+    font-size: 2.5rem;
+  }
+  h2,h3{
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1.2rem;
+  }
+  label{
+    font-size: 1.2rem;
+  }
+  input {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+#user-image{
+  font-size: 0.8rem;
+}
+textarea{
+  font-size: 0.9rem;
+}
+fieldset{
+  padding: 0.6rem 1.2rem;
+}
+}
+@media (max-width:610px) {
+  .form-container{
+    width: 65vw;
+  }
+  h1{
+    font-size: 2.3rem;
+    margin-top: 1.2rem;
+  }
+  h2,h3{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+  }
+  label{
+    font-size: 1rem;
+  }
+  input {
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+#user-image{
+  font-size: 0.8rem;
+}
+textarea{
+  font-size: 0.7rem;
+}
+fieldset{
+  padding: 0.6rem 0.9rem;
+  width: 84%;
+}
+}
+@media (max-width:370px) {
+  .form-container{
+    width: 75vw;
+  }
+}
+@media (max-width:315px) {
+  fieldset{
+    border: none;
+  }
+}

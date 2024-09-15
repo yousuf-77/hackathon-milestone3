@@ -1,0 +1,156 @@
+.user-num , .user-email {
+  font-size: 1.3rem;
+  }
+  @media (max-width:1080px) {
+    .user-num , .user-email {
+      font-size: 1.2rem;
+      }
+  }
+  @media (max-width:970px) {
+  .user-email {
+      font-size: 1.2rem;
+      overflow-wrap: anywhere;
+      }
+  }
+  @media (max-width:800px) {
+    .person-image{
+      width: 11.5rem;
+      height: 11.5rem;
+    }
+    .user-num {
+      font-size: 1.2rem;
+      overflow-wrap: anywhere;
+      }
+  }
+  @media (max-width:800px) {
+    .person-image{
+      width: 10.5rem;
+      height: 10.5rem;
+    }
+    .user-name{
+      font-size: 2.6rem;
+    }
+    .personal-info-heading , .education-heading , .skills-heading , .experience-heading{
+      font-size: 2rem;
+    }
+    .main-container{
+      height: 800px;
+    }
+    .education-p , .skills-p , .experience-p {
+      font-size: 1.2rem;
+    }
+  
+  }
+  .user-name{
+    width: 82%;
+  }
+  @media (max-width:600px) {
+    .person-image{
+      width: 9.5rem;
+      height: 9.5rem;
+    }
+    .user-name{
+      font-size: 2.4rem;
+    }
+    .personal-info-heading , .education-heading , .skills-heading , .experience-heading{
+      font-size: 1.8rem;
+    }
+    .main-container{
+      height: 700px;
+    }
+    .education-p , .skills-p , .experience-p {
+      font-size: 0.8rem;
+    }
+  }
+  @media (max-width:520px) {
+    .person-image{
+      width: 8.5rem;
+      height: 8.5rem;
+    }
+    .user-name{
+      font-size: 2.1rem;
+      margin-top: 0.5rem;
+    }
+    .personal-info-heading , .education-heading , .skills-heading , .experience-heading{
+      font-size: 1.6rem;
+    }
+    .main-container{
+      height: 700px;
+    }
+    .education-p , .skills-p , .experience-p {
+      font-size: 0.7rem;
+      width: 74%;
+    }
+    .user-num , .user-email {
+      font-size: 0.8rem;
+      }
+  }
+  @media (max-width:440px) {
+    .person-image{
+      width: 7rem;
+      height: 7rem;
+    }
+    .user-name{
+      font-size: 1.7rem;
+      margin-top: 0rem;
+      width:82%;
+    }
+    .personal-info-heading , .education-heading , .skills-heading , .experience-heading{
+      font-size: 1.4rem;
+    }
+    .main-container{
+      height: 600px;
+    }
+    .education-p , .skills-p , .experience-p {
+      font-size: 0.7rem;
+      width: 70%;
+    }
+  }
+  @media (max-width:370px) {
+    .person-image{
+      width: 6rem;
+      height: 6rem;
+    }
+    .user-name{
+      font-size: 1.45rem;
+      margin-top: 0rem;
+      width:82%;
+    }
+    .personal-info-heading , .education-heading , .skills-heading , .experience-heading{
+      font-size: 1.2rem;
+    }
+    .main-container{
+      height: 600px;
+    }
+    .education-p , .skills-p , .experience-p {
+      font-size: 0.7rem;
+      width: 70%;
+    }
+    .user-num , .user-email {
+      font-size: 0.67rem;
+      }
+  }
+  @media (max-width:340px) {
+    .person-image{
+      width: 6rem;
+      height: 6rem;
+    }
+    .user-name{
+      font-size: 1.3rem;
+      margin-top: 0rem;
+      width:82%;
+    }
+    .personal-info-heading , .education-heading , .skills-heading , .experience-heading{
+      font-size: 1.1rem;
+    }
+    .main-container{
+      height: 600px;
+    }
+    .education-p , .skills-p , .experience-p {
+      font-size: 0.7rem;
+      width: 70%;
+    }
+    .user-num , .user-email {
+      font-size: 0.6rem;
+      }
+  }

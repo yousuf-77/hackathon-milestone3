@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A Resume Builder | make your own resume | ">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="response.css">
+  <link rel="stylesheet" href="response2.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <section>
+      <div class="form-container">
+      <h1>Enter your details</h1>
+    <section>
+      <form autocomplete="on">
+        <fieldset>
+      <h2>Personal information :</h2>
+      <div>
+        <label for="fullName">Enter your full name</label>
+        <input type="text" name="fullName" id="fullName" required>
+      </div>
+      <div>
+        <label for="phone-number">Phone Number</label>
+        <input type="number" name="phone-number" id="phone-number" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required autocomplete="email">
+      </div>
+      <div class="image-div">
+        <label for="user-image">Enter your image</label>
+        <input type="file" id="user-image" required accept="image/*">
+      </div>
+    </fieldset>
+    <fieldset>
+      <h2>Education Skils and Work experience :</h2> 
+      <div  class="text-area-div">
+        <label id="educational-label" for="educational-bg">Enter your educational background</label>
+        <textarea name="educational-bg" id="educational-bg" required  ></textarea>
+      </div>
+      <div class="text-area-div">
+        <label for="skills">Enter your skills</label>
+        <textarea name="skills" id="skills" required ></textarea>
+      </div>
+      <div class="text-area-div">
+        <label id="experience-label" for="experience">Enter your work experience</label>
+        <textarea name="experience" id="experience" ></textarea>
+      </div>
+    </fieldset>
+      <section>
+      <fieldset>
+        <h3>pick colors for your resume</h3>
+        <label for="resume-color1"></label>
+        <input type="color" name="resume-colors" id="resume-color1">
+        <label for="resume-color2"></label>
+        <input type="color" name="resume-colors" id="resume-color2">
+      </fieldset>
+      </section>
+      <div class="submit-button-div">
+        <button class="submit-button">Submit</button>
+      </div>
+    </form>
+    </section>
+    
+  </div>
+</section>
+  </main>
+    <script src="index.js"></script>
+</body>
+</html>
